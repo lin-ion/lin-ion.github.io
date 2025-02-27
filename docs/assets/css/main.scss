@@ -3,6 +3,29 @@
 search: false
 ---
 
+// Typography
+$doc-font-size: 12px;
+
+// Sidebar
+$right-sidebar-width: 200px !default;
+$right-sidebar-width-wide: 200px !default;
+.sidebar .author__name {
+    font-weight: 600;
+}
+
+// Text decoration
+cb {
+    color: mix(#39c5bb, #000, 80%);
+    font-weight: 600;
+}
+$link-color: mix(#39c5bb, #000, 60%) !default;
+
+// Font
+$serif      : Georgia, Times, serif;
+$sans-serif : "Noto Sans", "Noto Serif KR", "Noto Serif JP", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+
+// default
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
